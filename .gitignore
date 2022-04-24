@@ -1,0 +1,10 @@
+build/
+.vscode/
+**.rej
+**.orig
+**.hevc
+**.h265
+**.yuv
+**.y4m
+**.out
+**.swp
