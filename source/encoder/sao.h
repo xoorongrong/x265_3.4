@@ -34,13 +34,14 @@ namespace X265_NS
 {
 	// private namespace
 
+	/* SAO模式 */
 	enum SAOType
 	{
-		SAO_EO_0 = 0,
-		SAO_EO_1,
-		SAO_EO_2,
-		SAO_EO_3,
-		SAO_BO,
+		SAO_EO_0 = 0, // EO模式 水平方向
+		SAO_EO_1,	  // EO模式 垂直方向
+		SAO_EO_2,	  // EO模式 135度方向
+		SAO_EO_3,	  // EO模式 45度方向
+		SAO_BO,		  // BO模式
 		MAX_NUM_SAO_TYPE
 	};
 
